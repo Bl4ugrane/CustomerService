@@ -14,7 +14,6 @@ import java.util.List;
 @Repository
 public class CustomerDAOImpl implements CustomerDAO {
 
-    //Внедрение интерфейса соединения с БД
     private EntityManager entityManager;
 
     @Autowired

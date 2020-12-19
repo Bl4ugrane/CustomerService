@@ -35,6 +35,14 @@ public class Customer {
     public Customer() {
     }
 
+    public Customer(Long id, String first_name, String last_name, String middle_name, String sex) {
+        this.id = id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.middle_name = middle_name;
+        this.sex = sex;
+    }
+
     public Long getId() {
         return id;
     }
