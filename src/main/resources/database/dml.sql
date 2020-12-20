@@ -15,4 +15,4 @@ INSERT INTO customer (id, registred_address_id, actual_address_id, first_name, l
 VALUES (1,2,1,'Dmitriy','Ugachev','Evgenievich','male');
 
 INSERT INTO customer (id, registred_address_id, actual_address_id, first_name, last_name, middle_name, sex)
-VALUES (1,3,4,'Sergey','Antonov','Vasilyevich','male');
+VALUES (2,3,4,'Sergey','Antonov','Vasilyevich','male');

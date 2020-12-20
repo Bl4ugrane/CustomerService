@@ -11,14 +11,12 @@ services:
       - POSTGRES_PASSWORD=root
       - PGDATA=/var/lib/postgresql/data/pgdata
     ports:
-      - "5433:5432"
-    restart: always
+      - "5432:5432"
   web:
     depends_on:
       - postgres
     image: rest-service
     ports:
       - "8080:8080"
-    restart: always
     links:
       - postgres
