@@ -12,6 +12,7 @@
     <artifactId>rest-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>rest-service</name>
+    <packaging>jar</packaging>
     <description>CustomerService for Spring Boot</description>
 
     <properties>
@@ -55,6 +56,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>rest-service</finalName>
     </build>
 
 </project>
